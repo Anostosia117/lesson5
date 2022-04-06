@@ -26,9 +26,8 @@ public class Main {
         // Задание 3
 
 
-        for
+
             }
-        }
         }
 
 
