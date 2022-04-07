@@ -25,10 +25,15 @@ public class Main {
 
         // Задание 3
 
-
-
+        int lastCentury = 1822;
+        int nextCentury = 2122;
+        for (int comet = 0; comet <= nextCentury; comet +=79){
+            if (comet >= lastCentury && comet <= nextCentury) {
+                System.out.println(comet);
             }
         }
+    }
+}
 
 
 
