@@ -25,12 +25,21 @@ public class Main {
 
         // Задание 3
 
-        int lastCentury = 1822;
+/*        int lastCentury = 1822;
         int nextCentury = 2122;
         for (int comet = 0; comet <= nextCentury; comet +=79){
             if (comet >= lastCentury && comet <= nextCentury) {
                 System.out.println(comet);
             }
+        }*/
+
+        int cometa = 0;
+        int centuryLast = 1822;
+        int centuryNext = 2122;
+        while (cometa <= centuryNext) {
+            if (cometa >= centuryLast && cometa <= centuryNext)
+            System.out.println(cometa);
+            cometa += 79;
         }
     }
 }
